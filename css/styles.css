@@ -12,22 +12,27 @@ header {
   background-size: cover;
 }
 .logo-text {
+  /* margin-left: auto; */
+  /* font-weight: bolder; */
   font-family: "Great Vibes", "Cookie", "Roboto Slab", serif;
+  padding-right: 10px;
+  color: burlywood;
 }
 
-/* .logo-img {
-  height: 100px;
-  width: 150px;
-  margin-left: auto;
+/* .logo-wrapper {
+  margin-top: auto;
 } */
 
 .nav {
-  flex: 1;
+  display: flex;
   background-color: black;
   color: aliceblue;
-  height: 50px;
+  /* height: 50px; */
   /* margin-bottom: auto; */
 }
+/* .slide {
+  flex: 1;
+} */
 ul {
   display: flex;
 }
@@ -43,7 +48,7 @@ li {
   justify-content: center;
 
   padding: 10px;
-  background-color: gray;
+  background-color: #ede1a8;
 }
 
 .rings--three {
@@ -60,14 +65,14 @@ li {
   max-width: 100%;
 }
 .ring--text {
-  background: hotpink;
+  background: burlywood;
 }
 
 img > p {
   align-items: center;
 }
 .divider {
-  background-color: cornsilk;
+  background-color: white;
 }
 .footer {
   height: 50px;
@@ -84,6 +89,9 @@ img > p {
 essential styles:
 these make the slideshow work
 */
+  /* .logo-text {
+    font-size: 20px;
+  } */
   .rings {
     grid-template-columns: repeat(2, 250px);
   }
